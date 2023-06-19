@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Josh Baker's BAH Blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/joshua-baker-87111818/
+      - icon: github
+        href: https://github.com/joshfbaker
+format:
+  html:
+    theme: flatly
+    css: styles.css
+
+
+
