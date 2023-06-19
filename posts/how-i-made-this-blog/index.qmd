@@ -1,8 +1,8 @@
 ---
 title: "How I Made This Blog"
 author: "Josh Baker"
-date: "2023-05-14"
-date-modified: "2023-05-14"
+date: "2023-06-19"
+date-modified: "2023-06-19"
 categories: [tech]
 draft: false
 image: "quarto.png"

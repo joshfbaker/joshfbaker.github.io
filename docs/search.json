@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "posts/how-i-made-this-blog/index.html",
+    "href": "posts/how-i-made-this-blog/index.html",
+    "title": "How I Made This Blog",
+    "section": "",
+    "text": "Intro\nThis blog was developed using the Quarto open source publishing system. It is hosted using the serverless, static web page hosting platform GitHub Pages.\n\n\nPre-requisites\n\nVSCode\nPython\n\n\n\nSteps\n\nFollow these instructions to install the Quarto tool and Quarto VSCode Extension.\nInstantiate a Quarto Blog Project\n\nBe sure to set the output-dir to docs in _quarto.yml\nRender the site\n\nPush the project to a new GitHub repo.\nPublish the blog to GitHub Pages\n\n\n\nFurther Thoughts\nIt’s that easy!\nI really like GitHub Pages as allows for publishing of any static site without needing to worry about provisioning servers, building an authentication system, or providing a credit card number!\nQuarto obviously allows us to create blogs, but we can also generate whole websites, books, and even PowerPoints. Check out the Gallery for more inspiration!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "How I Made This Blog\n\n\n\n\n\n\n\ntech\n\n\n\n\n\n\n\n\n\n\n\nJun 19, 2023\n\n\nJosh Baker\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Josh. My interests include data science, machine learning, and human computer interaction.\nAt some point I’ll come up with an imaginative name for this blog.\nThe opinions expressed here belong to me, and do not necessarily reflect the views of my employer."
+  }
+]
