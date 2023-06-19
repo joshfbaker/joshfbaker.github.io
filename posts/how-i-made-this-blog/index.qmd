@@ -1,0 +1,33 @@
+---
+title: "How I Made This Blog"
+author: "Josh Baker"
+date: "2023-05-14"
+date-modified: "2023-05-14"
+categories: [tech]
+draft: false
+image: "quarto.png"
+---
+
+
+# Intro 
+
+This blog was developed using the [Quarto](https://quarto.org/) open source publishing system.  It is hosted using the serverless, static web page hosting platform [GitHub Pages](https://pages.github.com/).
+
+# Pre-requisites
+* VSCode
+* Python
+
+# Steps
+1. Follow [these instructions](https://quarto.org/docs/get-started/) to install the Quarto tool and Quarto VSCode Extension.
+2. [Instantiate a Quarto Blog Project](https://quarto.org/docs/websites/website-blog.html)
+    1. Be sure to set the `output-dir` to `docs` in `_quarto.yml`
+    1. Render the site
+3. Push the project to a new GitHub repo.
+3. [Publish the blog to GitHub Pages](https://quarto.org/docs/publishing/github-pages.html) 
+
+# Further Thoughts
+It's that easy!
+
+I really like GitHub Pages as allows for publishing of any static site without needing to worry about provisioning servers, building an authentication system, or providing a credit card number!
+
+Quarto obviously allows us to create blogs, but we can also generate whole websites, books, and even PowerPoints.  Check out the [Gallery](https://quarto.org/docs/gallery/) for more inspiration!
