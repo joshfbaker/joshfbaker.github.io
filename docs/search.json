@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "How I Made This Blog\n\n\n\n\n\n\n\ntech\n\n\n\n\n\n\n\n\n\n\n\nJun 19, 2023\n\n\nJosh Baker\n\n\n\n\n\n\nNo matching items"
+    "text": "My Personal Finance Setup in Europe\n\n\n\n\n\n\n\npersonal finance\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2023\n\n\nJosh Baker\n\n\n\n\n\n\n  \n\n\n\n\nHow I Made This Blog\n\n\n\n\n\n\n\ntech\n\n\n\n\n\n\n\n\n\n\n\nJun 19, 2023\n\n\nJosh Baker\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -19,5 +19,33 @@
     "title": "About",
     "section": "",
     "text": "I’m Josh. My interests include data science, machine learning, and human computer interaction.\nAt some point I’ll come up with an imaginative name for this blog.\nThe opinions expressed here belong to me, and do not necessarily reflect the views of my employer."
+  },
+  {
+    "objectID": "posts/europe-personal-finance/index.html",
+    "href": "posts/europe-personal-finance/index.html",
+    "title": "My Personal Finance Setup in Europe",
+    "section": "",
+    "text": "After living in Europe for just over a year, I think I’ve settled on a close-to-final personal finance setup. For me, I was targeting a setup with minimal (ideally zero) fees, some points/cashback, and avoiding FBAR reporting."
+  },
+  {
+    "objectID": "posts/europe-personal-finance/index.html#wise",
+    "href": "posts/europe-personal-finance/index.html#wise",
+    "title": "My Personal Finance Setup in Europe",
+    "section": "Wise",
+    "text": "Wise\nLiving in Europe, you quickly discover you need a European checking account so you can have an IBAN number. Landlords, telecoms, gyms, and anyone else that’s expecting a recurring payment will require you to provide an IBAN number.\nWe went with Wise based on recommendations from colleagues and our own research. Wise is a FinTech company that makes it super simple to open accounts for many types of currencies (although we stick with Euros). Wise also lets you transfer USD to Euros at a very fair (mid-market) exchange rate and only moderate fees (about 0.7% per $1,000 moved).\nThe only drawback we’ve experienced is the stingy cash withdral limits. Wise caps you at two free withdawals per month up to a total of 200 Euros. After that you have to pay 0.50 plus 1.75% fee which it quite hefty. As many establishments only take cash, we anticipated blowing through out 200 Euro allowance, so we decided to look for another solution for pulling out cash."
+  },
+  {
+    "objectID": "posts/europe-personal-finance/index.html#n26",
+    "href": "posts/europe-personal-finance/index.html#n26",
+    "title": "My Personal Finance Setup in Europe",
+    "section": "N26",
+    "text": "N26\nN26 is also a FinTech company and specializes in providing mobile banking services in Europe. It’s our go-to for withdrawing cash. Transfers from Wise to N26 are effectively instant. Their Standard offering requires no fees and allows for 3 free ATM withdrawals per month, which has been more than enough for us."
+  },
+  {
+    "objectID": "posts/europe-personal-finance/index.html#chase-sapphire-preferred",
+    "href": "posts/europe-personal-finance/index.html#chase-sapphire-preferred",
+    "title": "My Personal Finance Setup in Europe",
+    "section": "Chase Sapphire Preferred",
+    "text": "Chase Sapphire Preferred\nMinimizing fees via debit payments is great, but in talking with friends it seems like we were missing out on points/cash back via credit cards. After shopping around, we settled on the Chase Sapphire Preferred Card for several reasons:\n\nit has zero foreign transaction fees\n3x points on dining, 2x points on travel, and 1x on everything else.\n\nVersus Wise (which has an effective -0.7% points due to the fees) using Chase gives a minimum net of +1.7%.\n\n60,000 point sign up bonus\nrelatively low $95 annual fee (and zero fee for adding an authorized user)\n\nWe did look at the Chase Sapphire Reserve Card but just couldn’t get the benefits to outweigh the $550 annual fee.\nAnother benefit of paying all but the required expenses with a U.S. based card is that you reduce the chance of having to complete FBAR reporting, which gets triggered when the sum of all of your foreign accounts is greater than $10,000.\nFinally, having a card with zero foreign transaction fees let me close out a couple of my non-Euro Wise currency accounts (Swiss Francs, British Pounds, etc.). It’s now simpler (and more cost effective) to just use the Chase credit card."
   }
 ]
