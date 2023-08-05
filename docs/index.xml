@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Josh Baker&#39;s Blog</title>
+<link>http://joshfbaker.github.io/index.html</link>
+<atom:link href="http://joshfbaker.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Josh Baker&#39;s Blog</description>
+<generator>quarto-1.3.361</generator>
+<lastBuildDate>Wed, 02 Aug 2023 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>My Personal Finance Setup in Europe</title>
+  <dc:creator>Josh Baker</dc:creator>
+  <link>http://joshfbaker.github.io/posts/europe-personal-finance/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="intro" class="level1">
+<h1>Intro</h1>
+<p>After living in Europe for just over a year, I <em>think</em> I’ve settled on a close-to-final personal finance setup. For me, I was targeting a setup with minimal (ideally zero) fees, some points/cashback, and avoiding <a href="https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar">FBAR</a> reporting.</p>
+</section>
+<section id="accounts-setup" class="level1">
+<h1>Accounts Setup</h1>
+<img src="http://joshfbaker.github.io/posts/europe-personal-finance/accounts-diagram.svg" alt="drawing" width="400" title="A digram of my accounts, how they're connected, and expenses." style="display: block; margin-left: auto; margin-right: auto;">
+<p style="text-align:center">
+<b>Figure 1:</b> Europe Account Configuration
+</p>
+<section id="wise" class="level2">
+<h2 class="anchored" data-anchor-id="wise">Wise</h2>
+<p>Living in Europe, you quickly discover you need a European checking account so you can have an <a href="https://en.wikipedia.org/wiki/International_Bank_Account_Number">IBAN number</a>. Landlords, telecoms, gyms, and anyone else that’s expecting a recurring payment will require you to provide an IBAN number.</p>
+<p>We went with <a href="https://wise.com/">Wise</a> based on recommendations from colleagues and our own research. Wise is a FinTech company that makes it super simple to open accounts for many types of currencies (although we stick with Euros). Wise also lets you transfer USD to Euros at a very fair (mid-market) exchange rate and only moderate fees (about 0.7% per $1,000 moved).</p>
+<p>The only drawback we’ve experienced is the stingy cash withdral limits. Wise caps you at two free withdawals per month up to a total of 200 Euros. After that you have to pay 0.50 plus 1.75% fee which it quite hefty. As many establishments only take cash, we anticipated blowing through out 200 Euro allowance, so we decided to look for another solution for pulling out cash.</p>
+</section>
+<section id="n26" class="level2">
+<h2 class="anchored" data-anchor-id="n26">N26</h2>
+<p><a href="https://n26.com/">N26</a> is also a FinTech company and specializes in providing mobile banking services in Europe. It’s our go-to for withdrawing cash. Transfers from Wise to N26 are effectively instant. Their <a href="https://n26.com/en-de/free-bank-account">Standard</a> offering requires no fees and allows for 3 free ATM withdrawals per month, which has been more than enough for us.</p>
+</section>
+<section id="chase-sapphire-preferred" class="level2">
+<h2 class="anchored" data-anchor-id="chase-sapphire-preferred">Chase Sapphire Preferred</h2>
+<p>Minimizing fees via debit payments is great, but in talking with friends it seems like we were missing out on points/cash back via credit cards. After shopping around, we settled on the <a href="https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred">Chase Sapphire Preferred Card</a> for several reasons:</p>
+<ul>
+<li>it has zero foreign transaction fees</li>
+<li>3x points on dining, 2x points on travel, and 1x on everything else.
+<ul>
+<li>Versus Wise (which has an effective -0.7% points due to the fees) using Chase gives a minimum net of +1.7%.</li>
+</ul></li>
+<li>60,000 point sign up bonus</li>
+<li>relatively low $95 annual fee (and zero fee for adding an authorized user)</li>
+</ul>
+<p>We did look at the <a href="https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve">Chase Sapphire Reserve Card</a> but just couldn’t get the benefits to outweigh the $550 annual fee.</p>
+<p>Another benefit of paying all but the required expenses with a U.S. based card is that you reduce the chance of having to complete <a href="https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar">FBAR</a> reporting, which gets triggered when the sum of all of your foreign accounts is greater than $10,000.</p>
+<p>Finally, having a card with zero foreign transaction fees let me close out a couple of my non-Euro Wise currency accounts (Swiss Francs, British Pounds, etc.). It’s now simpler (and more cost effective) to just use the Chase credit card.</p>
+</section>
+</section>
+<section id="further-thoughts" class="level1">
+<h1>Further Thoughts</h1>
+<p>I’m sure there’s still more benefits we could wring out of our setup, but we’re probably hitting the point of diminishing returns. So, I’m pretty happy with this configuration!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>personal finance</category>
+  <guid>http://joshfbaker.github.io/posts/europe-personal-finance/index.html</guid>
+  <pubDate>Wed, 02 Aug 2023 22:00:00 GMT</pubDate>
+  <media:content url="http://joshfbaker.github.io/posts/europe-personal-finance/euro-currency.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>How I Made This Blog</title>
+  <dc:creator>Josh Baker</dc:creator>
+  <link>http://joshfbaker.github.io/posts/how-i-made-this-blog/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="intro" class="level1">
+<h1>Intro</h1>
+<p>This blog was developed using the <a href="https://quarto.org/">Quarto</a> open source publishing system. It is hosted using the serverless, static web page hosting platform <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+</section>
+<section id="pre-requisites" class="level1">
+<h1>Pre-requisites</h1>
+<ul>
+<li>VSCode</li>
+<li>Python</li>
+</ul>
+</section>
+<section id="steps" class="level1">
+<h1>Steps</h1>
+<ol type="1">
+<li>Follow <a href="https://quarto.org/docs/get-started/">these instructions</a> to install the Quarto tool and Quarto VSCode Extension.</li>
+<li><a href="https://quarto.org/docs/websites/website-blog.html">Instantiate a Quarto Blog Project</a>
+<ol type="1">
+<li>Be sure to set the <code>output-dir</code> to <code>docs</code> in <code>_quarto.yml</code></li>
+<li>Render the site</li>
+</ol></li>
+<li>Push the project to a new GitHub repo.</li>
+<li><a href="https://quarto.org/docs/publishing/github-pages.html">Publish the blog to GitHub Pages</a></li>
+</ol>
+</section>
+<section id="further-thoughts" class="level1">
+<h1>Further Thoughts</h1>
+<p>It’s that easy!</p>
+<p>I really like GitHub Pages as allows for publishing of any static site without needing to worry about provisioning servers, building an authentication system, or providing a credit card number!</p>
+<p>Quarto obviously allows us to create blogs, but we can also generate whole websites, books, and even PowerPoints. Check out the <a href="https://quarto.org/docs/gallery/">Gallery</a> for more inspiration!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>tech</category>
+  <guid>http://joshfbaker.github.io/posts/how-i-made-this-blog/index.html</guid>
+  <pubDate>Sun, 18 Jun 2023 22:00:00 GMT</pubDate>
+  <media:content url="http://joshfbaker.github.io/posts/how-i-made-this-blog/quarto.png" medium="image" type="image/png" height="35" width="144"/>
+</item>
+</channel>
+</rss>

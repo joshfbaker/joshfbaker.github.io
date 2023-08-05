@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Josh Baker's Blog"
+  site-url: http://joshfbaker.github.io/
+  description: "Josh Baker's Blog"
   navbar:
     right:
       - about.qmd
@@ -11,6 +13,8 @@ website:
         href: https://www.linkedin.com/in/joshua-baker-87111818/
       - icon: github
         href: https://github.com/joshfbaker
+      - icon: rss
+        href: index.xml
 format:
   html:
     theme: flatly

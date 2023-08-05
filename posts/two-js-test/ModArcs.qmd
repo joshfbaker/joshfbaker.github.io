@@ -1,0 +1,66 @@
+---
+title: "Two.js Test"
+author: "Josh Baker"
+date: "2023-08-05"
+date-modified: "2023-08-05"
+categories: ["javascript", "digital art"]
+draft: true
+image: "quarto.png"
+
+---
+
+<script src="two.js"></script>
+<script>
+	//Configuration  variables
+	var arc_segment_length = 0.05;   //The length of segment in radians
+	var arc_segment_width = 2; // in pixels
+	var resolution = 60; // Unitless.  The large the resolution, the slower the animation
+	//var modulo_number = [60, 3600];  //A true clock with array elements corresponding to seconds per minute and seconds per hour
+	//var modulo_number = [60, 3600, 86400, 2592000, 31536000];  //A modified clock with array elements corresponding to seconds per minute, seconds per hour, seconds per day, seconds per month (30 days), seconds per year (365 days)
+	//var modulo_number = [2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60] // All the divisors of 60
+	var modulo_number = [2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 18, 20, 21, 25, 28, 30, 35, 36, 42, 45, 50, 60, 63, 70, 75, 84, 90, 100, 105, 126, 140, 150, 175, 180, 210, 225, 252, 300, 315, 350, 420, 450, 525, 630, 700, 900, 1050, 1260, 1575, 2100, 3150, 6300] // All divisors of 6300;
+
+	//Instantiate values - empty
+	var radius = [];
+	var direction = [];
+	var angle = [];
+	var angle_adjust = [];
+	var arc_segment = [];
+
+	//Instantiate values - calculated
+	var elem = document.body;
+	var two = new Two({ fullscreen: true }).appendTo(elem);
+	var dimension_minimum = Math.min(two.height, two.width);
+	var x_origin = two.width / 2;   // center the origin
+	var y_origin = two.height / 2;  // center the origin
+	var n = modulo_number.length;
+	var radius_maximum = dimension_minimum / 2;
+	var radius_minimum = radius_maximum - n * arc_segment_width; // radius of the inner most circle in pixels
+	var shift = -arc_segment_length / 2 - Math.PI / 2;  // shift by half of the arc segment and 90 degrees to the right
+
+
+	//Initialize values arc segments
+	for (var i = 0; i < n; i++) {
+		//for (var i = n; i > 0; i--) {
+		radius[i] = radius_minimum + i * (radius_maximum - radius_minimum) / n;
+		angle[i] = 2 * Math.PI / modulo_number[i];
+		angle_adjust[i] = angle[i] / resolution;
+		arc_segment[i] = two.makeArcSegment(x_origin, y_origin, radius[i], radius[i], 0, arc_segment_length)
+		//arc_segment[i] = two.makeArcSegment(x_origin, y_origin, 0, radius[i], 0, arc_segment_length)
+		arc_segment[i].rotation = shift;
+		arc_segment[i].linewidth = arc_segment_width;
+		//arc_segment[i].fill = 'rgba(0, 200, 255, 0.75)';
+		//arc_segment[i].opacity = .5;
+	}
+
+	//Move all of the arc on each animation loop
+	two.bind('update', function (frameCount) {
+		for (var i = 0; i < n; i++) {
+			//if (two.frameCount % resolution == 0) { // Escapement mechanism
+			arc_segment[i].rotation = two.frameCount * angle_adjust[i] + shift;
+			//}
+		}
+	}).play();
+
+	two.update();
+</script>
