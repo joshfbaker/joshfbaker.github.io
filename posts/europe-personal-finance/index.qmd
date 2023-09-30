@@ -2,7 +2,7 @@
 title: "My Personal Finance Setup in Europe"
 author: "Josh Baker"
 date: "2023-08-03"
-date-modified: "2023-08-03"
+date-modified: "2023-09-30"
 categories: ["personal finance"]
 draft: false
 image: "euro-currency.jpg"
@@ -11,7 +11,7 @@ image: "euro-currency.jpg"
 
 # Intro 
 
-After living in Europe for just over a year, I *think* I've settled on a close-to-final personal finance setup.  For me, I was targeting a setup with minimal (ideally zero) fees, some points/cashback, and avoiding [FBAR](https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar) reporting.  
+After living in Europe for just over a year, I *think* I've settled on a close-to-final personal finance setup.  I was targeting a setup with minimal (ideally zero) fees, some points/cashback, and avoiding [FBAR](https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar) reporting.  
 
 # Accounts Setup
 
@@ -25,7 +25,7 @@ Living in Europe, you quickly discover you need a European checking account so y
 
 We went with [Wise](https://wise.com/) based on recommendations from colleagues and our own research.  Wise is a FinTech company that makes it super simple to open accounts for many types of currencies (although we stick with Euros).  Wise also lets you transfer USD to Euros at a very fair (mid-market) exchange rate and only moderate fees (about 0.7% per $1,000 moved).
 
-The only drawback we've experienced is the stingy cash withdral limits.  Wise caps you at two free withdawals per month up to a total of 200 Euros.  After that you have to pay 0.50 plus 1.75% fee which it quite hefty.  As many establishments only take cash, we anticipated blowing through out 200 Euro allowance, so we decided to look for another solution for pulling out cash.
+The only drawback we've experienced is the stingy cash withdral limits.  Wise caps you at two free withdawals per month up to a total of 100 Euros.  After that you have to pay 1.50 per withdrawal plus 2% fee which it quite hefty.  As many establishments only take cash, we anticipated quickly blowing through out 100 Euro allowance per month, so we decided to look for another solution for pulling out cash.
 
 ## N26
 [N26](https://n26.com/) is also a FinTech company and specializes in providing mobile banking services in Europe.  It's our go-to for withdrawing cash.  Transfers from Wise to N26 are effectively instant.  Their [Standard](https://n26.com/en-de/free-bank-account) offering requires no fees and allows for 3 free ATM withdrawals per month, which has been more than enough for us.

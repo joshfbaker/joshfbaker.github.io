@@ -4,7 +4,7 @@
     "href": "posts/how-i-made-this-blog/index.html",
     "title": "How I Made This Blog",
     "section": "",
-    "text": "Intro\nThis blog was developed using the Quarto open source publishing system. It is hosted using the serverless, static web page hosting platform GitHub Pages.\n\n\nPre-requisites\n\nVSCode\nPython\n\n\n\nSteps\n\nFollow these instructions to install the Quarto tool and Quarto VSCode Extension.\nInstantiate a Quarto Blog Project\n\nBe sure to set the output-dir to docs in _quarto.yml\nRender the site\n\nPush the project to a new GitHub repo.\nPublish the blog to GitHub Pages\n\n\n\nFurther Thoughts\nIt’s that easy!\nI really like GitHub Pages as allows for publishing of any static site without needing to worry about provisioning servers, building an authentication system, or providing a credit card number!\nQuarto obviously allows us to create blogs, but we can also generate whole websites, books, and even PowerPoints. Check out the Gallery for more inspiration!"
+    "text": "Intro\nThis blog was developed using the Quarto open source publishing system. It is hosted using the serverless, static web page hosting platform GitHub Pages.\n\n\nPre-requisites\n\nVSCode\nPython\n\n\n\nSteps\n\nFollow these instructions to install the Quarto tool and Quarto VSCode Extension.\nInstantiate a Quarto Blog Project\n\nBe sure to set the output-dir to docs in _quarto.yml\nRender the site\n\nPush the project to a new GitHub repo.\nPublish the blog to GitHub Pages\n\n\n\nFurther Thoughts\nIt’s that easy!\nI really like GitHub Pages as allows for publishing of any static site without needing to worry about provisioning servers, building an authentication system, or providing a credit card number!\nQuarto obviously allows you to create blogs, but you can also generate whole websites, books, and even PowerPoints. Check out the Gallery for more inspiration!"
   },
   {
     "objectID": "index.html",
@@ -25,14 +25,14 @@
     "href": "posts/europe-personal-finance/index.html",
     "title": "My Personal Finance Setup in Europe",
     "section": "",
-    "text": "After living in Europe for just over a year, I think I’ve settled on a close-to-final personal finance setup. For me, I was targeting a setup with minimal (ideally zero) fees, some points/cashback, and avoiding FBAR reporting."
+    "text": "After living in Europe for just over a year, I think I’ve settled on a close-to-final personal finance setup. I was targeting a setup with minimal (ideally zero) fees, some points/cashback, and avoiding FBAR reporting."
   },
   {
     "objectID": "posts/europe-personal-finance/index.html#wise",
     "href": "posts/europe-personal-finance/index.html#wise",
     "title": "My Personal Finance Setup in Europe",
     "section": "Wise",
-    "text": "Wise\nLiving in Europe, you quickly discover you need a European checking account so you can have an IBAN number. Landlords, telecoms, gyms, and anyone else that’s expecting a recurring payment will require you to provide an IBAN number.\nWe went with Wise based on recommendations from colleagues and our own research. Wise is a FinTech company that makes it super simple to open accounts for many types of currencies (although we stick with Euros). Wise also lets you transfer USD to Euros at a very fair (mid-market) exchange rate and only moderate fees (about 0.7% per $1,000 moved).\nThe only drawback we’ve experienced is the stingy cash withdral limits. Wise caps you at two free withdawals per month up to a total of 200 Euros. After that you have to pay 0.50 plus 1.75% fee which it quite hefty. As many establishments only take cash, we anticipated blowing through out 200 Euro allowance, so we decided to look for another solution for pulling out cash."
+    "text": "Wise\nLiving in Europe, you quickly discover you need a European checking account so you can have an IBAN number. Landlords, telecoms, gyms, and anyone else that’s expecting a recurring payment will require you to provide an IBAN number.\nWe went with Wise based on recommendations from colleagues and our own research. Wise is a FinTech company that makes it super simple to open accounts for many types of currencies (although we stick with Euros). Wise also lets you transfer USD to Euros at a very fair (mid-market) exchange rate and only moderate fees (about 0.7% per $1,000 moved).\nThe only drawback we’ve experienced is the stingy cash withdral limits. Wise caps you at two free withdawals per month up to a total of 100 Euros. After that you have to pay 1.50 per withdrawal plus 2% fee which it quite hefty. As many establishments only take cash, we anticipated quickly blowing through out 100 Euro allowance per mont, so we decided to look for another solution for pulling out cash."
   },
   {
     "objectID": "posts/europe-personal-finance/index.html#n26",

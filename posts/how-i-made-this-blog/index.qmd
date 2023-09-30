@@ -30,4 +30,4 @@ It's that easy!
 
 I really like GitHub Pages as allows for publishing of any static site without needing to worry about provisioning servers, building an authentication system, or providing a credit card number!
 
-Quarto obviously allows us to create blogs, but we can also generate whole websites, books, and even PowerPoints.  Check out the [Gallery](https://quarto.org/docs/gallery/) for more inspiration!
+Quarto obviously allows you to create blogs, but you can also generate whole websites, books, and even PowerPoints.  Check out the [Gallery](https://quarto.org/docs/gallery/) for more inspiration!

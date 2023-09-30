@@ -22,7 +22,7 @@
 
 <section id="intro" class="level1">
 <h1>Intro</h1>
-<p>After living in Europe for just over a year, I <em>think</em> I’ve settled on a close-to-final personal finance setup. For me, I was targeting a setup with minimal (ideally zero) fees, some points/cashback, and avoiding <a href="https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar">FBAR</a> reporting.</p>
+<p>After living in Europe for just over a year, I <em>think</em> I’ve settled on a close-to-final personal finance setup. I was targeting a setup with minimal (ideally zero) fees, some points/cashback, and avoiding <a href="https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar">FBAR</a> reporting.</p>
 </section>
 <section id="accounts-setup" class="level1">
 <h1>Accounts Setup</h1>
@@ -34,7 +34,7 @@
 <h2 class="anchored" data-anchor-id="wise">Wise</h2>
 <p>Living in Europe, you quickly discover you need a European checking account so you can have an <a href="https://en.wikipedia.org/wiki/International_Bank_Account_Number">IBAN number</a>. Landlords, telecoms, gyms, and anyone else that’s expecting a recurring payment will require you to provide an IBAN number.</p>
 <p>We went with <a href="https://wise.com/">Wise</a> based on recommendations from colleagues and our own research. Wise is a FinTech company that makes it super simple to open accounts for many types of currencies (although we stick with Euros). Wise also lets you transfer USD to Euros at a very fair (mid-market) exchange rate and only moderate fees (about 0.7% per $1,000 moved).</p>
-<p>The only drawback we’ve experienced is the stingy cash withdral limits. Wise caps you at two free withdawals per month up to a total of 200 Euros. After that you have to pay 0.50 plus 1.75% fee which it quite hefty. As many establishments only take cash, we anticipated blowing through out 200 Euro allowance, so we decided to look for another solution for pulling out cash.</p>
+<p>The only drawback we’ve experienced is the stingy cash withdral limits. Wise caps you at two free withdawals per month up to a total of 100 Euros. After that you have to pay 1.50 per withdrawal plus 2% fee which it quite hefty. As many establishments only take cash, we anticipated quickly blowing through out 100 Euro allowance per mont, so we decided to look for another solution for pulling out cash.</p>
 </section>
 <section id="n26" class="level2">
 <h2 class="anchored" data-anchor-id="n26">N26</h2>
@@ -107,7 +107,7 @@
 <h1>Further Thoughts</h1>
 <p>It’s that easy!</p>
 <p>I really like GitHub Pages as allows for publishing of any static site without needing to worry about provisioning servers, building an authentication system, or providing a credit card number!</p>
-<p>Quarto obviously allows us to create blogs, but we can also generate whole websites, books, and even PowerPoints. Check out the <a href="https://quarto.org/docs/gallery/">Gallery</a> for more inspiration!</p>
+<p>Quarto obviously allows you to create blogs, but you can also generate whole websites, books, and even PowerPoints. Check out the <a href="https://quarto.org/docs/gallery/">Gallery</a> for more inspiration!</p>
 
 
 </section>

@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://joshfbaker.github.io/index.html</loc>
-    <lastmod>2023-08-05T11:57:38.131Z</lastmod>
+    <lastmod>2023-09-30T09:19:43.388Z</lastmod>
+  </url>
+  <url>
+    <loc>http://joshfbaker.github.io/posts/europe-personal-finance/index.html</loc>
+    <lastmod>2023-09-30T09:15:47.867Z</lastmod>
+  </url>
+  <url>
+    <loc>http://joshfbaker.github.io/posts/how-i-made-this-blog/index.html</loc>
+    <lastmod>2023-09-30T09:19:42.317Z</lastmod>
   </url>
 </urlset>
