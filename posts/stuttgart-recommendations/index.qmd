@@ -1,0 +1,52 @@
+---
+title: "Stuttgart Recommendations"
+author: "Josh Baker"
+date: "2024-06-20"
+date-modified: "2024-06-20"
+categories: ["travel"]
+draft: false
+image: "rathaus.jpg"
+---
+
+
+# Intro 
+
+Here are my favourite things to do and eat in Stuttgart!
+
+# Things To Do
+* [Landesmusem Wurtemburg Museum](https://www.google.com/maps/place/History+Museum+W%C3%BCrttemberg/@48.7785985,9.1766898,17.19z/data=!3m1!5s0x4799db3578a0c71b:0x98298208ff1b64cb!4m6!3m5!1s0x4799db357767a845:0xe5ff1c850dc2ca00!8m2!3d48.7773476!4d9.179635!16s%2Fg%2F122s90zv?shorturl=1) is a cool museum just off of Schlossplatz that covers the history of Germany and specifically this region.  I'd recommend bringing Google Translate with you though as most of the signage is in German.
+* [Kunst Museum](https://www.google.com/maps/place/Kunstmuseum+Stuttgart/@48.7786715,9.177248,18.37z/data=!3m1!5s0x4799db35d976d7b7:0xd067fe150d75b3bf!4m14!1m7!3m6!1s0x4799db357767a845:0xe5ff1c850dc2ca00!2sHistory+Museum+W%C3%BCrttemberg!8m2!3d48.7773476!4d9.179635!16s%2Fg%2F122s90zv!3m5!1s0x4799db35c19e79cb:0x443fd1d259cdf9a2!8m2!3d48.7783294!4d9.1775786!16zL20vMDc1OTgz?entry=ttu) specializes mostly in modern-ish art and is nice as well.
+* Stuttgart is the home of [Porsche](https://www.google.com/maps/place/Porsche+Museum/@48.8342139,9.1499742,17z/data=!3m2!4b1!5s0x4799da86d454020b:0x3677170472f5d605!4m6!3m5!1s0x4799da8732ced9e1:0x3c80648eb55f7987!8m2!3d48.8342104!4d9.1525545!16s%2Fm%2F04129r0?shorturl=1) and [Mercedes Benz](https://www.google.com/maps/place/Mercedes-Benz+Museum/@48.7881488,9.2314017,17z/data=!3m1!4b1!4m6!3m5!1s0x4799c4feda1ddf91:0xc166f4f1bffb4b94!8m2!3d48.7881453!4d9.233982!16zL20vMGR4amh0?shorturl=1) and both have museums you can tour. 
+* The [Schweine Museum](https://www.google.com/maps/place/SchweineMuseum+Stuttgart/@48.785811,9.2174117,17z/data=!3m2!4b1!5s0x4799c4e5b1890ed3:0x671c2aa871b5792f!4m6!3m5!1s0x4799c4e5b12d69cd:0xa30aab5ef25db3d!8m2!3d48.7858075!4d9.219992!16s%2Fg%2F121g100h?shorturl=1) is a celebration of German obsession with pigs and pork.  Definitely hokey, but kinda fun.  
+* The [TV Tower](https://www.google.com/maps/place/Stuttgart+TV+Tower/@48.7558644,9.1875253,17z/data=!3m1!4b1!4m6!3m5!1s0x4799c4a78c941ea5:0xee74d8b131b9a572!8m2!3d48.7558609!4d9.1901056!16zL20vMDJzMzE4?shorturl=1) is a bit out of the way but is one of the major symbols of Stuttgart.
+* [Waldfreidhof](https://www.google.com/maps/place/Waldfriedhof+Stuttgart/@48.7534252,9.141821,15z/data=!4m14!1m7!3m6!1s0x4799c4a78c941ea5:0xee74d8b131b9a572!2sStuttgart+TV+Tower!8m2!3d48.7558609!4d9.1901056!16zL20vMDJzMzE4!3m5!1s0x4799dc999bdcfe85:0x926f74f46c540760!8m2!3d48.7505426!4d9.1439133!16s%2Fg%2F120hhjvq?entry=ttu) is a cemetery, which sounds like a bummer. But is an incredibly beautiful forest cemetery with many statues.  There are also a section for German military dead from the World Wars which is unique.  It's accessible by the [Seilbahn](https://www.google.com/maps/place/S%C3%BCdheimer+Platz+(Seilbahn)/@48.7552144,9.1429573,17.31z/data=!4m6!3m5!1s0x4799dc9c3f4a6aef:0x5628ae8f37f974e5!8m2!3d48.7559112!4d9.1421254!16s%2Fg%2F1ptxkrvcn?entry=ttu) funicular train 
+
+<img src="porsche-museum.jpg" alt="porsche museum" width="400"  title="The Porsche Museum." style="display: block; margin-left: auto; margin-right: auto;"/>
+<p style="text-align:center">Porsche Museum</p>
+
+# Restaurants
+
+## Biergartens with Food
+* [Tea House in Weissenburg Park](https://www.google.com/maps/place/Tea+House+in+Weissenburg+Park/@48.7638717,9.182105,17.88z/data=!4m14!1m7!3m6!1s0x4799db34ff6c6b77:0x90c6c1bff759b0aa!2sCarls+Brauhaus!8m2!3d48.7794633!4d9.1799805!16s%2Fg%2F11bbrkxbmw!3m5!1s0x4799c4adba42c02d:0x1de51fa413c6e627!8m2!3d48.7644444!4d9.1827778!16s%2Fg%2F1q5ccdtt8?entry=ttu) – despite the name, this is a beer garden.  Near Bopser stop on the U6 line.  Amazing views over the city and excellent place to watch the sunset from the Aussicht (overlook) and they’ll you take your beers up there.
+* [Tschechen & Söhne](https://www.google.com/maps/place/Tschechen+%26+S%C3%B6hne/@48.7682564,9.1644761,17.34z/data=!4m14!1m7!3m6!1s0x4799db34ff6c6b77:0x90c6c1bff759b0aa!2sCarls+Brauhaus!8m2!3d48.7794633!4d9.1799805!16s%2Fg%2F11bbrkxbmw!3m5!1s0x4799db5b27161ef3:0xd6b1fb3fe665f32!8m2!3d48.7679701!4d9.1653188!16s%2Fg%2F1tgz4fq_?entry=ttu) – at top of Karlshohe with great views over the city.  Beware, many stairs to get up here so you’ll earn your first beer 😝
+* [Biergarten im Schlossgarten](https://www.google.com/maps/place/Biergarten+im+Schlo%C3%9Fgarten/@48.7845589,9.1796626,16.24z/data=!4m6!3m5!1s0x4799c4cd3952905f:0x90169fbefdfc22c1!8m2!3d48.7845431!4d9.1861802!16s%2Fg%2F122l81w0?shorturl=1) is centrally located and just outside the central train station.
+
+## Traditional Swabian Restaurants
+These skew smaller and more local
+
+* [Stuttgarter+Staffele](https://www.google.com/maps/place/Stuttgarter+St%C3%A4ffele/@48.7713209,9.1647083,632m/data=!3m1!1e3!4m15!1m8!3m7!1s0x4799db34c1ad8fd3:0x79d5c11c7791cfe4!2sStuttgart,+Germany!3b1!8m2!3d48.7758459!4d9.1829321!16zL20vMDcyN18!3m5!1s0x4799db45eb0b94cf:0xe85a979ef9599be5!8m2!3d48.7713592!4d9.1667111!16s%2Fg%2F1238m2s_?entry=ttu) - Feuersee in Stuttgart.  This one wins my prize for best interior.  Feels like stepping from a city street straight into a hut in the Alps.
+* [Weinstube Kachelofen](https://www.google.com/maps/place/Weinstube+Kachelofen/@48.7735268,9.1772072,20.89z/data=!3m1!5s0x4799db4bbb29b897:0x47a98b47f27d5648!4m14!1m7!3m6!1s0x4799db4b9085bad7:0xb7cb298736390a88!2sRestaurant+Tauberquelle!8m2!3d48.7725012!4d9.1770732!16s%2Fg%2F1thz0mth!3m5!1s0x4799db4ba7a7532f:0x24cea3ac59ed755a!8m2!3d48.7735284!4d9.1775546!16s%2Fg%2F1tdl0jfv?entry=ttu) – Rathaus neighborhood.  Very old school Schwabian.  Service can be slow if it’s busy but food is amazing.
+* [Schellenturm](https://www.google.com/maps/place/Schellenturm/@48.7731069,9.1829501,20.04z/data=!3m1!5s0x4799c4b4e5927277:0x136d4768cf6f6c2f!4m6!3m5!1s0x4799c4b4ef5f8d43:0x85bf5773d3c8db1d!8m2!3d48.7731486!4d9.1834075!16s%2Fg%2F1hc0qp6c5?entry=ttu) – Bohnenviertel neighborhood.  This one’s in a stone tower so great ambiance
+* [Restaurant Tauberquelle](https://www.google.com/maps/place/Restaurant+Tauberquelle/@48.7725012,9.1744929,17z/data=!3m1!4b1!4m6!3m5!1s0x4799db4b9085bad7:0xb7cb298736390a88!8m2!3d48.7725012!4d9.1770732!16s%2Fg%2F1thz0mth?entry=ttu) – Rathaus neighborhood.  More of a pub/stube feel with a garten if the weather is nice.
+* I’ve also been meaning to go to [Onkel Otto](https://www.google.com/maps/place/Onkel+Otto/@48.7642463,9.1633985,16z/data=!3m2!4b1!5s0x4799db509c746a93:0xff8f51f66840956f!4m6!3m5!1s0x4799db509c0d9cb9:0xfe07fdbfcb955c86!8m2!3d48.7642463!4d9.1659734!16s%2Fg%2F11b7rxkzmv?entry=ttu) which is meant to have great schnitzels but you def will need a reservation.
+
+## Modern Swabian Restaurants
+These skew much larger and more touristy (although not unbearably so)
+
+* [Carls Brauhaus](https://www.google.com/maps/place/Carls+Brauhaus/@48.7794633,9.1774002,17z/data=!3m1!4b1!4m6!3m5!1s0x4799db34ff6c6b77:0x90c6c1bff759b0aa!8m2!3d48.7794633!4d9.1799805!16s%2Fg%2F11bbrkxbmw?entry=ttu) – right off Schlossplatz, associated with the Dinkelacker brewery.  Expansive menu, good/fast service, and English friendly
+* [Alte Kanzlei](https://www.google.com/maps/place/Alte+Kanzlei/@48.7774891,9.1760985,16z/data=!3m1!4b1!4m6!3m5!1s0x4799db3590f66031:0x9cd8cf5a853d3137!8m2!3d48.7774891!4d9.1786788!16s%2Fg%2F11dylytvmj?entry=ttu) – right off Schlossplatz.  Modern interior
+* [Brauhaus Schönbuch](https://www.google.com/maps/place/Brauhaus+Sch%C3%B6nbuch/@48.7801291,9.1780307,19.44z/data=!4m6!3m5!1s0x4799db34248c3e39:0xbd5931e21ba23dc4!8m2!3d48.7802944!4d9.1781404!16s%2Fg%2F1tgnw5hy?entry=ttu) – about a block off Schlossplatz, associated with Schonbuch brewery. 
+ 
+
+
+

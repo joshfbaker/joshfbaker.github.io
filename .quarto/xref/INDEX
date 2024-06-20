@@ -13,5 +13,20 @@
   },
   "posts/how-i-made-this-blog/index.qmd": {
     "index.html": "0c5fbadf"
+  },
+  "posts/europe-personal-finance/index.qmd": {
+    "index.html": "e3234623"
+  },
+  "posts/two-js-test/ModArcs.qmd": {
+    "ModArcs.html": "bfd0ada7"
+  },
+  "posts/should-i-automate-the-thing/index.qmd": {
+    "index.html": "1a03c53f"
+  },
+  "posts/stuttgart-recommendations/index.qmd": {
+    "index.html": "e4911e68"
+  },
+  "posts/putting-the-science-in-data-science/index.qmd": {
+    "index.html": "f50c3bbf"
   }
 }
