@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-
 website:
   title: "Josh Baker's Blog"
   site-url: http://joshfbaker.github.io/
@@ -19,6 +18,8 @@ format:
   html:
     theme: flatly
     css: styles.css
-
+google-analytics:
+  tracking-id: "G-95MPR71HK5"
+  storage: none
 
 

@@ -1,0 +1,52 @@
+---
+title: "LLMs Timeline"
+author: "Josh Baker"
+date: "2024-08-09"
+date-modified: "2024-08-09"
+categories: ["ai", "llm"]
+draft: true
+image: "timeline.png"
+---
+
+<script src="plotly-2.34.0.min.js" charset="utf-8"></script>
+
+# Intro
+
+Recently it seems like there have been a truly dizzying number of LLM models released.  I normally come across these announcements on X or [Hacker News](https://news.ycombinator.com/) and I find it increasingly difficult to keep track of who released which model when.  And I find it even harder to fit each new release into the larger context.
+
+* What version of Llama are we on?
+* Did Qwen 2 come out before or after Phi-3?
+* When might we be due for the next release from Antropic?  
+
+# The Dataset
+
+I searched for the type of dataset I had in mind, but was unable to find one so I set about curating my own.  
+
+I knew I wanted to mostly focus on "open" model series, defined here as those that supported commercial use in most cases.  I also wanted to throw in some of the main closed models for additional context.  I wanted to avoid the trap of trying to record all models to keep the visualization interpretable, so I focused on "high profile" models.
+
+Wikipedia's [LLM](https://en.wikipedia.org/wiki/Large_language_model#List) was a great starting point.  [Ollama Library](https://ollama.com/library) and Hugging Face(https://huggingface.co/) models cards helped to fill in some gaps along with Google to get to individual model release pages.
+
+# Timeline
+
+I quite like timeline visualizations for making sense of the world.    
+
+I'm a big fan of [plotly.express.timeline](https://plotly.com/python-api-reference/generated/plotly.express.timeline.html).  `px.timeline` yields an interactive visualization with filtering, zooming, and hover capabilities.  It has sensible defaults so you can quickly visualize your data, but is also highly configurable to enable fine-tuning of the visualization.
+
+<div id="5c5e1d43-8243-429d-9213-63ca980976b9" class="plotly-graph-div" style="height:600px; width:100%;"></div>
+<script src="llm-timeline.js"></script>
+<br>
+<p style="text-align:center"><b>LLM Timeline:</b> Models by Organization colored by model series.  Notches with cross hatches indicate non-commercial use in most cases. Hover for additiona metadat including exact release date and model sizes.</p>  
+
+# Evaluation
+
+
+# Next steps
+* Now that I've built this, should be easy to keep up to date
+* Use LLMs to build this.  Not directly due to knowledge cut off but with tool answering/search
+* Other visualizations
+    * Visualize things like performance versus quantized size to see tradeoffs with combined size and quantization.  7B raw better than 70B 4bit quantized? 
+    * Model Family trees
+
+# Conclusion
+
+Feedback?  Better implementation? Let me know!? Additional models?   Incorrect date?

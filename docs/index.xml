@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Josh Baker&#39;s Blog</title>
-<link>http://joshfbaker.github.io/index.html</link>
+<link>http://joshfbaker.github.io/</link>
 <atom:link href="http://joshfbaker.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Josh Baker&#39;s Blog</description>
-<generator>quarto-1.3.361</generator>
+<generator>quarto-1.5.56</generator>
 <lastBuildDate>Wed, 19 Jun 2024 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Stuttgart Recommendations</title>
   <dc:creator>Josh Baker</dc:creator>
-  <link>http://joshfbaker.github.io/posts/stuttgart-recommendations/index.html</link>
+  <link>http://joshfbaker.github.io/posts/stuttgart-recommendations/</link>
   <description><![CDATA[ 
 
 
@@ -76,14 +76,14 @@ Porsche Museum
 
  ]]></description>
   <category>travel</category>
-  <guid>http://joshfbaker.github.io/posts/stuttgart-recommendations/index.html</guid>
+  <guid>http://joshfbaker.github.io/posts/stuttgart-recommendations/</guid>
   <pubDate>Wed, 19 Jun 2024 22:00:00 GMT</pubDate>
   <media:content url="http://joshfbaker.github.io/posts/stuttgart-recommendations/rathaus.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>My Personal Finance Setup in Europe</title>
   <dc:creator>Josh Baker</dc:creator>
-  <link>http://joshfbaker.github.io/posts/europe-personal-finance/index.html</link>
+  <link>http://joshfbaker.github.io/posts/europe-personal-finance/</link>
   <description><![CDATA[ 
 
 
@@ -135,14 +135,14 @@ Porsche Museum
 
  ]]></description>
   <category>personal finance</category>
-  <guid>http://joshfbaker.github.io/posts/europe-personal-finance/index.html</guid>
+  <guid>http://joshfbaker.github.io/posts/europe-personal-finance/</guid>
   <pubDate>Wed, 02 Aug 2023 22:00:00 GMT</pubDate>
   <media:content url="http://joshfbaker.github.io/posts/europe-personal-finance/euro-currency.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>How I Made This Blog</title>
   <dc:creator>Josh Baker</dc:creator>
-  <link>http://joshfbaker.github.io/posts/how-i-made-this-blog/index.html</link>
+  <link>http://joshfbaker.github.io/posts/how-i-made-this-blog/</link>
   <description><![CDATA[ 
 
 
@@ -183,7 +183,7 @@ Porsche Museum
 
  ]]></description>
   <category>tech</category>
-  <guid>http://joshfbaker.github.io/posts/how-i-made-this-blog/index.html</guid>
+  <guid>http://joshfbaker.github.io/posts/how-i-made-this-blog/</guid>
   <pubDate>Sun, 18 Jun 2023 22:00:00 GMT</pubDate>
   <media:content url="http://joshfbaker.github.io/posts/how-i-made-this-blog/quarto.png" medium="image" type="image/png" height="35" width="144"/>
 </item>

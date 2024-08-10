@@ -1,0 +1,73 @@
+---
+title: "Should I Automate the Thing?"
+author: "Josh Baker"
+date: "2024-04-14"
+date-modified: "2024-04-14"
+categories: ["data science"]
+draft: true
+---
+
+
+# Intro 
+As a data scientist within a large organization, I'm often inundated with requests to automate things.  With  limited resources and a seemingly infinite backlog, the initial challenge is prioritizing proposed automation projects for execution.  
+
+Without a robust framework, prioritiation can be driven by expediency, developer preference, perceived urgency versus the essential criteria: are we saving more time than we're spending?  
+
+Consider the following automation project proposal.  How might we prioritize these for development?
+
+1. A junior analyst generates a daily report every morning.  To complete this task, they first submit a standardized query into three search engines, and then compile search results into a report whose structure never changes.  The report is sent out via email to a broad distribution group and posted to a SharePoint site.  
+2. A senior engineer manually merges and cleans data from spreadsheets provided by his junior engineers once per week.  The merged spreadsheet is loaded into a business system of record.
+3. The CEO writes a quarterly a letter to shareholders that evaluates the positioning of the business in the overall market and outlines her strategy for the coming year.
+
+# A Prioritization Framework
+
+1. Is the task automatable?
+This first pass sanity check to evaluate the projects for automatability.  Is the task performed according to a standard, well documented, deterministic process?  Or does the completion of the task require signficant subjective inputs, fuzzy matching, or dedicated subject matter experts?
+
+Eliminate Project 3.
+
+2. What is the duration and recurrences of the manual task?
+The current owners of the manual tasks may be able to give you good estimates of these parameters.  Better to  perform an observational study. 
+
+Let's say we've queried the junior analyst and senior engineer and their tasks take one hour daily and three hours weekly, respectively.
+
+4.  How long will it take to automate?
+
+5. How long is this task likely to persist?
+Processes and tasking often change within an organization.  Is it a core function of the business?  Is it a pet project of the current administration?  Is it the result of a flawed process?  Will it be impacted by IT upgrades?  The longevity of a specific task impacts the realized value of automating it.   
+
+Let's say we query our analyst and engineer.  The analyst responds that this report has been sent out every day for the last 5 years and is very likely to continue into the future.  Our engineer has also been performing the task for several years, but anticipates when the organization next upgrades its engineering application (scheduled in two years), the task will be handled by the system. 
+
+6. How much is everybody's time worth?
+Obviously this is a sensitive question and co-workers are unlikely to advertise this information.  For large efforts, this data could be requested from senior leadership or HR.  However, educated guesses can suffice.
+
+Let's say the junior analyst gets paid half as much as the data scientist and the data scientist is paid half as much as the senior engineer.  Moreover, the data scientist is a consultant, so their cost to the organization is twice their salary.  Therefore the data scientist's hour costs 4x a junior analyst's hour and 1x the senior engineer's hour.  
+
+7. Putting it All Together: Net Present Value (NPV) and Return on Investment (ROI)?
+
+In finanace, the Net Present Value (NPV) takes the time value of money to reflect that cash flows deep in the future are likely less valuable than cash flows today 
+
+The Net Present Value formula is:
+
+```
+PV = Rt / (1 + i)^t
+```
+
+We can apply a similar logic to our tasks to account
+
+```
+ROI = (MANUAL_TIME * MANUAL_FREQUENCY * DURATION * DS_MULTIPLIER) - (DS_TIME * DS_MULTIPLIER) / (DS_TIME * DS_MULTIPLIER) 
+```
+
+ROI = (3 hour * 1 / week * 52 weeks / year * 1) - (200 hours * 1)
+
+Pay back time
+
+# Further Thoughts
+
+Zero-to-One tasks (create a capability not previously possible)
+
+LLMs / AI (reduce time required by DS to implement)
+
+Opportunity Cost - if we automate the task, can the person complete a task of equal or greater value?
+

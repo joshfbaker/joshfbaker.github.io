@@ -1,0 +1,28 @@
+---
+title: "Putting the Science in Data Science"
+author: "Josh Baker"
+date: "2024-04-14"
+date-modified: "2024-04-14"
+categories: ["data science"]
+draft: true
+---
+
+
+# Intro 
+
+Data science now just often machine learning.
+
+DS defined as ...
+
+Should be systematic, methodical, repeatable.
+
+Profiling gets close, but typically limited to surface level summary stats and histograms.
+
+I want to see:
+* Deep univariate (rich histograms with opinionated styling)
+* Automatic identification of semantic types
+* Bivariate
+* Euler diagrams for keys across sets
+
+# Further Thoughts
+
