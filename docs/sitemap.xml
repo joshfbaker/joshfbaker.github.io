@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://joshfbaker.github.io/posts/llm-timeline/index.html</loc>
+    <lastmod>2024-08-10T13:47:52.554Z</lastmod>
+  </url>
+  <url>
+    <loc>http://joshfbaker.github.io/posts/europe-personal-finance/index.html</loc>
+    <lastmod>2023-12-23T08:22:45.929Z</lastmod>
+  </url>
+  <url>
+    <loc>http://joshfbaker.github.io/about.html</loc>
+    <lastmod>2023-06-19T20:02:57.555Z</lastmod>
+  </url>
+  <url>
     <loc>http://joshfbaker.github.io/index.html</loc>
     <lastmod>2024-08-09T22:21:21.753Z</lastmod>
   </url>
   <url>
-    <loc>http://joshfbaker.github.io/posts/europe-personal-finance/index.html</loc>
-    <lastmod>2024-06-20T19:03:45.102Z</lastmod>
-  </url>
-  <url>
     <loc>http://joshfbaker.github.io/posts/how-i-made-this-blog/index.html</loc>
-    <lastmod>2024-06-20T19:03:38.007Z</lastmod>
+    <lastmod>2023-09-30T09:19:32.045Z</lastmod>
   </url>
   <url>
     <loc>http://joshfbaker.github.io/posts/stuttgart-recommendations/index.html</loc>
-    <lastmod>2024-08-09T22:26:44.137Z</lastmod>
-  </url>
-  <url>
-    <loc>http://joshfbaker.github.io/about.html</loc>
-    <lastmod>2024-08-09T22:03:13.160Z</lastmod>
+    <lastmod>2024-06-20T19:09:14.017Z</lastmod>
   </url>
 </urlset>

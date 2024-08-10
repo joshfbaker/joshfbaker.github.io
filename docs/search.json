@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "posts/how-i-made-this-blog/index.html",
-    "href": "posts/how-i-made-this-blog/index.html",
-    "title": "How I Made This Blog",
+    "objectID": "posts/llm-timeline/index.html",
+    "href": "posts/llm-timeline/index.html",
+    "title": "Timeline of Recent LLM Releases",
     "section": "",
-    "text": "Intro\nThis blog was developed using the Quarto open source publishing system. It is hosted using the serverless, static web page hosting platform GitHub Pages.\n\n\nPre-requisites\n\nVSCode\nPython\n\n\n\nSteps\n\nFollow these instructions to install the Quarto tool and Quarto VSCode Extension.\nInstantiate a Quarto Blog Project\n\nBe sure to set the output-dir to docs in _quarto.yml\nRender the site\n\nPush the project to a new GitHub repo.\nPublish the blog to GitHub Pages\n\n\n\nFurther Thoughts\nIt’s that easy!\nI really like GitHub Pages as allows for publishing of any static site without needing to worry about provisioning servers, building an authentication system, or providing a credit card number!\nQuarto obviously allows you to create blogs, but you can also generate whole websites, books, and even PowerPoints. Check out the Gallery for more inspiration!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Stuttgart Recommendations\n\n\n\n\n\n\ntravel\n\n\n\n\n\n\n\n\n\nJun 20, 2024\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nMy Personal Finance Setup in Europe\n\n\n\n\n\n\npersonal finance\n\n\n\n\n\n\n\n\n\nAug 3, 2023\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Made This Blog\n\n\n\n\n\n\ntech\n\n\n\n\n\n\n\n\n\nJun 19, 2023\n\n\nJosh Baker\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I’m Josh. My interests include data science, machine learning, and human computer interaction.\nAt some point I’ll come up with an imaginative name for this blog.\nThe opinions expressed here belong to me, and do not necessarily reflect the views of my employer."
+    "text": "Intro\nRecently it seems like there have been a truly dizzying number of LLM models released. I normally come across these announcements on X or Hacker News and I find it increasingly difficult to keep track of who released which model when. And I find it even harder to fit each new release into the larger context.\n\nWhat version of Llama are we on?\nDid Qwen 2 come out before or after Phi-3?\nWhen might we be due for the next release from Antropic?\n\n\n\nThe Dataset\nI searched for a dataset with organization, model series, model, model release date, and number of parameters but had trouble finding something comprehensive. So I set about curating my own.\nI focused on “open” model series, defined here as those that supported commercial use in most cases. I also threw in some of the main closed models for additional context. I wanted to avoid recording all models to keep the visualization interpretable, so I focused on “high profile” models.\nWikipedia’s LLM was a great starting point. Ollama Library and Hugging Face(https://huggingface.co/) models cards helped to fill in some gaps along with Google to get to individual model release pages.\n\n\nTimeline\nI quite like timeline visualizations for making sense of the world.\nI’m a big fan of the plotly.express.timeline implementation in particular. px.timeline yields an interactive, web-based visualization with filtering, zooming, and hover capabilities. It has sensible defaults for a quick first draft, but is also highly configurable to enable fine-tuning of the visualization.\n\n\n\n\n\n\nTimeline of Recent LLM Releases: Models by Organization colored by model series. Notches with cross hatches indicate that commericial use is not. Hover for additional metadat including exact release date and model sizes.\n\n\n\nNext steps\nAfter investing the time to build the initial dataset and visualization, it should be easy to keep up to date, which I’ll likely do every several months.\nI think there are also some interesting extensions to this work:\n\nPrompt an LLM to generate the dataset. Knowledge cut-offs mean I’d have to code the LLM to use web browsing tools (now possible with Ollama) to query for the very latest announcements.\nI’m also interested in generating other visualizations that I haven’t seen yet, for example:\n\na scatter plot visualization of model performance versus quantized models size to aid in model selection. Is full size 16-bit Llama3 8B better or worse than 4-bit Llama3 70B?\n\ntree diagrams to illustrate the lineage of models through pre-training, fine-tuning, HLRF, quantization, and any other steps.\n\n\n\n\nConclusion\nI’d love to hear any feedback on the effectiveness of this timeline visualization or if you think I’m missing any major models!"
   },
   {
     "objectID": "posts/europe-personal-finance/index.html",
@@ -47,6 +33,27 @@
     "title": "My Personal Finance Setup in Europe",
     "section": "Chase Sapphire Preferred",
     "text": "Chase Sapphire Preferred\nMinimizing fees via debit payments is great, but in talking with friends it seems like we were missing out on points/cash back via credit cards. After shopping around, we settled on the Chase Sapphire Preferred Card for several reasons:\n\nit has zero foreign transaction fees\n3x points on dining, 2x points on travel, and 1x on everything else.\n\nVersus Wise (which has an effective -0.7% points due to the fees) using Chase gives a minimum net of +1.7%.\n\n60,000 point sign up bonus\nrelatively low $95 annual fee (and zero fee for adding an authorized user)\n\nWe did look at the Chase Sapphire Reserve Card but just couldn’t get the benefits to outweigh the $550 annual fee.\nAnother benefit of paying all but the required expenses with a U.S. based card is that you reduce the chance of having to complete FBAR reporting, which gets triggered when the sum of all of your foreign accounts is greater than $10,000.\nFinally, having a card with zero foreign transaction fees let me close out a couple of my non-Euro Wise currency accounts (Swiss Francs, British Pounds, etc.). It’s now simpler (and more cost effective) to just use the Chase credit card."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m Josh. My interests include data science, machine learning, and human computer interaction.\nAt some point I’ll come up with an imaginative name for this blog.\nThe opinions expressed here belong to me, and do not necessarily reflect the views of my employer."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Timeline of Recent LLM Releases\n\n\n\n\n\n\nai\n\n\nllm\n\n\n\n\n\n\n\n\n\nAug 9, 2024\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nStuttgart Recommendations\n\n\n\n\n\n\ntravel\n\n\n\n\n\n\n\n\n\nJun 20, 2024\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nMy Personal Finance Setup in Europe\n\n\n\n\n\n\npersonal finance\n\n\n\n\n\n\n\n\n\nAug 3, 2023\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Made This Blog\n\n\n\n\n\n\ntech\n\n\n\n\n\n\n\n\n\nJun 19, 2023\n\n\nJosh Baker\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/how-i-made-this-blog/index.html",
+    "href": "posts/how-i-made-this-blog/index.html",
+    "title": "How I Made This Blog",
+    "section": "",
+    "text": "Intro\nThis blog was developed using the Quarto open source publishing system. It is hosted using the serverless, static web page hosting platform GitHub Pages.\n\n\nPre-requisites\n\nVSCode\nPython\n\n\n\nSteps\n\nFollow these instructions to install the Quarto tool and Quarto VSCode Extension.\nInstantiate a Quarto Blog Project\n\nBe sure to set the output-dir to docs in _quarto.yml\nRender the site\n\nPush the project to a new GitHub repo.\nPublish the blog to GitHub Pages\n\n\n\nFurther Thoughts\nIt’s that easy!\nI really like GitHub Pages as allows for publishing of any static site without needing to worry about provisioning servers, building an authentication system, or providing a credit card number!\nQuarto obviously allows you to create blogs, but you can also generate whole websites, books, and even PowerPoints. Check out the Gallery for more inspiration!"
   },
   {
     "objectID": "posts/stuttgart-recommendations/index.html",

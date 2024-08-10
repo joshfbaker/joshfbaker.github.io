@@ -1,10 +1,10 @@
 ---
-title: "LLMs Timeline"
+title: "Timeline of Recent LLM Releases"
 author: "Josh Baker"
 date: "2024-08-09"
 date-modified: "2024-08-09"
 categories: ["ai", "llm"]
-draft: true
+draft: false
 image: "timeline.png"
 ---
 
@@ -20,9 +20,9 @@ Recently it seems like there have been a truly dizzying number of LLM models rel
 
 # The Dataset
 
-I searched for the type of dataset I had in mind, but was unable to find one so I set about curating my own.  
+I searched for a dataset with organization, model series, model, model release date, and number of parameters but had trouble finding something comprehensive. So I set about curating my own.  
 
-I knew I wanted to mostly focus on "open" model series, defined here as those that supported commercial use in most cases.  I also wanted to throw in some of the main closed models for additional context.  I wanted to avoid the trap of trying to record all models to keep the visualization interpretable, so I focused on "high profile" models.
+I focused on "open" model series, defined here as those that supported commercial use in most cases.  I also threw in some of the main closed models for additional context.  I wanted to avoid recording all models to keep the visualization interpretable, so I focused on "high profile" models.  
 
 Wikipedia's [LLM](https://en.wikipedia.org/wiki/Large_language_model#List) was a great starting point.  [Ollama Library](https://ollama.com/library) and Hugging Face(https://huggingface.co/) models cards helped to fill in some gaps along with Google to get to individual model release pages.
 
@@ -30,23 +30,24 @@ Wikipedia's [LLM](https://en.wikipedia.org/wiki/Large_language_model#List) was a
 
 I quite like timeline visualizations for making sense of the world.    
 
-I'm a big fan of [plotly.express.timeline](https://plotly.com/python-api-reference/generated/plotly.express.timeline.html).  `px.timeline` yields an interactive visualization with filtering, zooming, and hover capabilities.  It has sensible defaults so you can quickly visualize your data, but is also highly configurable to enable fine-tuning of the visualization.
+I'm a big fan of the [plotly.express.timeline](https://plotly.com/python-api-reference/generated/plotly.express.timeline.html) implementation in particular.  `px.timeline` yields an interactive, web-based visualization with filtering, zooming, and hover capabilities.  It has sensible defaults for a quick first draft, but is also highly configurable to enable fine-tuning of the visualization.
 
 <div id="5c5e1d43-8243-429d-9213-63ca980976b9" class="plotly-graph-div" style="height:600px; width:100%;"></div>
 <script src="llm-timeline.js"></script>
 <br>
-<p style="text-align:center"><b>LLM Timeline:</b> Models by Organization colored by model series.  Notches with cross hatches indicate non-commercial use in most cases. Hover for additiona metadat including exact release date and model sizes.</p>  
-
-# Evaluation
-
+<p style="text-align:center"><b>Timeline of Recent LLM Releases:</b> Models by Organization colored by model series.  Notches with cross hatches indicate that commericial use is not. Hover for additional metadat including exact release date and model sizes.</p>  
 
 # Next steps
-* Now that I've built this, should be easy to keep up to date
-* Use LLMs to build this.  Not directly due to knowledge cut off but with tool answering/search
-* Other visualizations
-    * Visualize things like performance versus quantized size to see tradeoffs with combined size and quantization.  7B raw better than 70B 4bit quantized? 
-    * Model Family trees
+
+After investing the time to build the initial dataset and visualization, it should be easy to keep up to date, which I'll likely do every several months.
+
+I think there are also some interesting extensions to this work:
+
+* Prompt an LLM to generate the dataset.  Knowledge cut-offs mean I'd have to code the LLM to use web browsing tools (now possible with [Ollama](https://ollama.com/blog/tool-support)) to query for the very latest announcements.
+* I'm also interested in generating other visualizations that I haven't seen yet, for example:
+    * a scatter plot visualization of model performance versus quantized models size to aid in model selection.  Is full size 16-bit Llama3 8B better or worse than 4-bit Llama3 70B?   
+    * tree diagrams to illustrate the lineage of models through pre-training, fine-tuning, HLRF, quantization, and any other steps.
 
 # Conclusion
 
-Feedback?  Better implementation? Let me know!? Additional models?   Incorrect date?
+I'd love to hear any feedback on the effectiveness of this timeline visualization or if you think I'm missing any major models!
