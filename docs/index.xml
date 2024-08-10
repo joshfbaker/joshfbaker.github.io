@@ -10,7 +10,7 @@
 <atom:link href="http://joshfbaker.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Josh Baker&#39;s Blog</description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Thu, 08 Aug 2024 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 09 Aug 2024 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Timeline of Recent LLM Releases</title>
   <dc:creator>Josh Baker</dc:creator>
@@ -74,8 +74,9 @@
  ]]></description>
   <category>ai</category>
   <category>llm</category>
+  <category>tech</category>
   <guid>http://joshfbaker.github.io/posts/llm-timeline/</guid>
-  <pubDate>Thu, 08 Aug 2024 22:00:00 GMT</pubDate>
+  <pubDate>Fri, 09 Aug 2024 22:00:00 GMT</pubDate>
   <media:content url="http://joshfbaker.github.io/posts/llm-timeline/timeline.png" medium="image" type="image/png" height="115" width="144"/>
 </item>
 <item>

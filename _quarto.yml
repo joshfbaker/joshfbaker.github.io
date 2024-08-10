@@ -14,12 +14,12 @@ website:
         href: https://github.com/joshfbaker
       - icon: rss
         href: index.xml
+  google-analytics:
+    tracking-id: "G-95MPR71HK5" 
+    storage: none 
 format:
   html:
     theme: flatly
     css: styles.css
-google-analytics:
-  tracking-id: "G-95MPR71HK5"
-  storage: none
 
 
