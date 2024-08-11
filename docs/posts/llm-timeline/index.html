@@ -163,7 +163,7 @@ gtag('config', 'G-95MPR71HK5', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">August 10, 2024</p>
+        <p class="date-modified">August 11, 2024</p>
       </div>
     </div>
       
@@ -188,14 +188,14 @@ gtag('config', 'G-95MPR71HK5', { 'anonymize_ip': true});
 <ul>
 <li>What version of Llama are we on?</li>
 <li>Did Qwen 2 come out before or after Phi-3?</li>
-<li>When might we be due for the next release from Antropic?</li>
+<li>When might we be due for the next release from Anthropic?</li>
 </ul>
 </section>
 <section id="the-dataset" class="level1">
 <h1>The Dataset</h1>
 <p>I searched for a dataset with organization, model series, model, model release date, and number of parameters but had trouble finding something comprehensive. So I set about curating my own.</p>
-<p>I focused on “open” model series, defined here as those that supported commercial use in most cases. I also threw in some of the main closed models for additional context. I wanted to avoid recording all models to keep the visualization interpretable, so I focused on “high profile” models.</p>
-<p>Wikipedia’s <a href="https://en.wikipedia.org/wiki/Large_language_model#List">LLM</a> was a great starting point. <a href="https://ollama.com/library">Ollama Library</a> and Hugging Face(https://huggingface.co/) models cards helped to fill in some gaps along with Google to get to individual model release pages.</p>
+<p>I focused on “open” series, defined here as those that supported commercial use in most cases. I also threw in some of the primary closed models for additional context. I wanted to avoid recording all models to keep the visualization interpretable, so I focused on “high profile” models.</p>
+<p>Wikipedia’s <a href="https://en.wikipedia.org/wiki/Large_language_model#List">LLM</a> was a great starting point. <a href="https://ollama.com/library">Ollama</a> and <a href="https://huggingface.co/">Hugging Face</a> models cards helped to fill in some gaps along with individual model release pages from the releasing organizations themselves.</p>
 </section>
 <section id="timeline" class="level1">
 <h1>Timeline</h1>
@@ -207,18 +207,20 @@ gtag('config', 'G-95MPR71HK5', { 'anonymize_ip': true});
 <script src="llm-timeline.js"></script>
 <br>
 <p style="text-align:center">
-<b>Timeline of Recent LLM Releases:</b> Models by Organization colored by model series. Notches with cross hatches indicate that commericial use is not. Hover for additional metadat including exact release date and model sizes.
+<b>Figure 1:</b>Timeline of Recent LLM Releases
 </p>
+<p>As you can see above, I set each releasing organization to have its own swinlane. Each model is represented by a bar and colored by its model series. Cross hatches indicate that commericial use is not allowed under the license. Additional metadata including exact release date and model sizes become visible when hovering over the individual bars.</p>
+<p>I like how the timeline allows me to see the cadence of releases from each organization and how the release rate is generally slowing down across organizations (see Microsoft’s Phi and Alibaba’s Qwen series).</p>
 </section>
 <section id="next-steps" class="level1">
 <h1>Next steps</h1>
 <p>After investing the time to build the initial dataset and visualization, it should be easy to keep up to date, which I’ll likely do every several months.</p>
 <p>I think there are also some interesting extensions to this work:</p>
 <ul>
-<li>Prompt an LLM to generate the dataset. Knowledge cut-offs mean I’d have to code the LLM to use web browsing tools (now possible with <a href="https://ollama.com/blog/tool-support">Ollama</a>) to query for the very latest announcements.</li>
-<li>I’m also interested in generating other visualizations that I haven’t seen yet, for example:
+<li>Prompt an LLM to generate the dataset. Knowledge cut-offs mean LLMs are blind to the recent past, so I’d have to configure the LLM to use web browsing tools (say with <a href="https://ollama.com/blog/tool-support">Ollama</a> or <a href="https://python.langchain.com/v0.2/docs/integrations/tools/">LangChain</a>) to query for the very latest announcements. If it’s possible to automate the data curation process, then generating similar timelines for other families of models (such speech-to-text, image generation, etc) would be feasible.</li>
+<li>I’m also interested in generating other types visualizations that I haven’t yet come across, for example:
 <ul>
-<li>a scatter plot visualization of model performance versus quantized models size to aid in model selection. Is full size 16-bit Llama3 8B better or worse than 4-bit Llama3 70B?<br>
+<li>a scatter plot visualization of model performance versus quantized model size to aid in model selection. Is full size 16-bit Llama3 8B better or worse than 4-bit Llama3 70B?<br>
 </li>
 <li>tree diagrams to illustrate the lineage of models through pre-training, fine-tuning, HLRF, quantization, and any other steps.</li>
 </ul></li>
@@ -226,7 +228,7 @@ gtag('config', 'G-95MPR71HK5', { 'anonymize_ip': true});
 </section>
 <section id="conclusion" class="level1">
 <h1>Conclusion</h1>
-<p>I’d love to hear any feedback on the effectiveness of this timeline visualization or if you think I’m missing any major models!</p>
+<p>Please let me know if you have any feedback! I’m interested to know if others find this useful, if I’m missing any major models or if you have any other ideas for extensions!</p>
 
 
 </section>
