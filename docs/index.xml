@@ -153,26 +153,6 @@ Porsche Museum
   <media:content url="http://joshfbaker.github.io/posts/stuttgart-recommendations/rathaus.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title></title>
-  <dc:creator>Josh Baker</dc:creator>
-  <link>http://joshfbaker.github.io/posts/should-i-automate-the-thing/</link>
-  <description><![CDATA[ undefined ]]></description>
-  <category>data science</category>
-  <guid>http://joshfbaker.github.io/posts/should-i-automate-the-thing/</guid>
-  <pubDate>Sun, 14 Apr 2024 04:00:00 GMT</pubDate>
-</item>
-<item>
-  <title></title>
-  <dc:creator>Josh Baker</dc:creator>
-  <link>http://joshfbaker.github.io/posts/two-js-test/ModArcs.html</link>
-  <description><![CDATA[ undefined ]]></description>
-  <category>javascript</category>
-  <category>digital art</category>
-  <guid>http://joshfbaker.github.io/posts/two-js-test/ModArcs.html</guid>
-  <pubDate>Sat, 05 Aug 2023 04:00:00 GMT</pubDate>
-  <media:content url="http://joshfbaker.github.io/posts/two-js-test/quarto.png" medium="image" type="image/png"/>
-</item>
-<item>
   <title>My Personal Finance Setup in Europe</title>
   <dc:creator>Josh Baker</dc:creator>
   <link>http://joshfbaker.github.io/posts/europe-personal-finance/</link>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://joshfbaker.github.io/posts/stuttgart-recommendations/index.html</loc>
+    <lastmod>2025-08-18T02:59:20.794Z</lastmod>
+  </url>
+  <url>
     <loc>http://joshfbaker.github.io/posts/how-i-made-this-blog/index.html</loc>
     <lastmod>2023-09-30T09:19:32.045Z</lastmod>
   </url>
@@ -19,13 +23,5 @@
   <url>
     <loc>http://joshfbaker.github.io/posts/llm-timeline/index.html</loc>
     <lastmod>2024-08-11T10:13:38.914Z</lastmod>
-  </url>
-  <url>
-    <loc>http://joshfbaker.github.io/posts/stuttgart-recommendations/index.html</loc>
-    <lastmod>2025-08-18T02:59:20.794Z</lastmod>
-  </url>
-  <url>
-    <loc>http://joshfbaker.github.io/posts/should-i-automate-the-thing/index.html</loc>
-    <lastmod>2025-08-18T02:54:38.387Z</lastmod>
   </url>
 </urlset>

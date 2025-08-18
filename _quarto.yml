@@ -2,9 +2,13 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "Baker's Blog"
   site-url: http://joshfbaker.github.io/
+  title: "Baker's Blog"
   description: "Baker's Blog"
+  favicon: favicon.ico
+  twitter-card: true
+  open-graph: true
+
   navbar:
     right:
       - about.qmd
@@ -14,9 +18,6 @@ website:
         href: https://github.com/joshfbaker
       - icon: rss
         href: index.xml
-    favicon: favicon.ico
-    twitter-card: true
-    open-graph: true
 format:
   html:
     theme: flatly

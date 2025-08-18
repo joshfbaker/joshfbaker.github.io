@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "posts/stuttgart-recommendations/index.html",
+    "href": "posts/stuttgart-recommendations/index.html",
+    "title": "Stuttgart Recommendations",
+    "section": "",
+    "text": "Here are my favourite things to do and eat in Stuttgart!"
+  },
+  {
+    "objectID": "posts/stuttgart-recommendations/index.html#biergartens-with-food",
+    "href": "posts/stuttgart-recommendations/index.html#biergartens-with-food",
+    "title": "Stuttgart Recommendations",
+    "section": "Biergartens with Food",
+    "text": "Biergartens with Food\n\nTea House in Weissenburg Park – despite the name, this is a beer garden. Near Bopser stop on the U6 line. Amazing views over the city and excellent place to watch the sunset from the Aussicht (overlook) and they’ll you take your beers up there.\nTschechen & Söhne – at top of Karlshohe with great views over the city. Beware, many stairs to get up here so you’ll earn your first beer 😝\nBiergarten im Schlossgarten is centrally located and just outside the central train station."
+  },
+  {
+    "objectID": "posts/stuttgart-recommendations/index.html#traditional-swabian-restaurants",
+    "href": "posts/stuttgart-recommendations/index.html#traditional-swabian-restaurants",
+    "title": "Stuttgart Recommendations",
+    "section": "Traditional Swabian Restaurants",
+    "text": "Traditional Swabian Restaurants\nThese skew smaller and more local\n\nStuttgarter+Staffele - Feuersee in Stuttgart. This one wins my prize for best interior. Feels like stepping from a city street straight into a hut in the Alps.\nWeinstube Kachelofen – Rathaus neighborhood. Very old school Schwabian. Service can be slow if it’s busy but food is amazing.\nSchellenturm – Bohnenviertel neighborhood. This one’s in a stone tower so great ambiance\nRestaurant Tauberquelle – Rathaus neighborhood. More of a pub/stube feel with a garten if the weather is nice.\nWeinstube Zur Kiste - Charlottenplatz. Real old school.\nI’ve also been meaning to go to Onkel Otto which is meant to have great schnitzels but you def will need a reservation."
+  },
+  {
+    "objectID": "posts/stuttgart-recommendations/index.html#modern-swabian-restaurants",
+    "href": "posts/stuttgart-recommendations/index.html#modern-swabian-restaurants",
+    "title": "Stuttgart Recommendations",
+    "section": "Modern Swabian Restaurants",
+    "text": "Modern Swabian Restaurants\nThese skew much larger and more touristy (although not unbearably so)\n\nCarls Brauhaus – right off Schlossplatz, associated with the Dinkelacker brewery. Expansive menu, good/fast service, and English friendly\nAlte Kanzlei – right off Schlossplatz. Modern interior\nBrauhaus Schönbuch – about a block off Schlossplatz, associated with Schonbuch brewery."
+  },
+  {
     "objectID": "posts/how-i-made-this-blog/index.html",
     "href": "posts/how-i-made-this-blog/index.html",
     "title": "How I Made This Blog",
@@ -11,7 +39,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Timeline of Recent LLM Releases\n\n\n\n\n\n\nai\n\n\nllm\n\n\ntech\n\n\n\n\n\n\n\n\n\nAug 10, 2024\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nStuttgart Recommendations\n\n\n\n\n\n\ntravel\n\n\n\n\n\n\n\n\n\nJun 20, 2024\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nShould I Automate the Thing?\n\n\n\n\n\n\ndata science\n\n\n\n\n\n\n\n\n\nApr 14, 2024\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nTwo.js Test\n\n\n\n\n\n\njavascript\n\n\ndigital art\n\n\n\n\n\n\n\n\n\nAug 5, 2023\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nMy Personal Finance Setup in Europe\n\n\n\n\n\n\npersonal finance\n\n\n\n\n\n\n\n\n\nAug 3, 2023\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Made This Blog\n\n\n\n\n\n\ntech\n\n\n\n\n\n\n\n\n\nJun 19, 2023\n\n\nJosh Baker\n\n\n\n\n\n\nNo matching items"
+    "text": "Timeline of Recent LLM Releases\n\n\n\n\n\n\nai\n\n\nllm\n\n\ntech\n\n\n\n\n\n\n\n\n\nAug 10, 2024\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nStuttgart Recommendations\n\n\n\n\n\n\ntravel\n\n\n\n\n\n\n\n\n\nJun 20, 2024\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nMy Personal Finance Setup in Europe\n\n\n\n\n\n\npersonal finance\n\n\n\n\n\n\n\n\n\nAug 3, 2023\n\n\nJosh Baker\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Made This Blog\n\n\n\n\n\n\ntech\n\n\n\n\n\n\n\n\n\nJun 19, 2023\n\n\nJosh Baker\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -54,40 +82,5 @@
     "title": "Timeline of Recent LLM Releases",
     "section": "",
     "text": "Intro\nRecently it seems like there have been a truly dizzying number of LLM models released. I normally come across these announcements on X or Hacker News and I find it increasingly difficult to keep track of who released which model when. And I find it even harder to fit each new release into the larger context.\n\nWhat version of Llama are we on?\nDid Qwen 2 come out before or after Phi-3?\nWhen might we be due for the next release from Anthropic?\n\n\n\nThe Dataset\nI searched for a dataset with organization, model series, model, model release date, and number of parameters but had trouble finding something comprehensive. So I set about curating my own.\nI focused on “open” series, defined here as those that supported commercial use in most cases. I also threw in some of the primary closed models for additional context. I wanted to avoid recording all models to keep the visualization interpretable, so I focused on “high profile” models.\nWikipedia’s LLM was a great starting point. Ollama and Hugging Face models cards helped to fill in some gaps along with individual model release pages from the releasing organizations themselves.\n\n\nTimeline\nI quite like timeline visualizations for making sense of the world.\nI’m a big fan of the plotly.express.timeline implementation in particular. px.timeline yields an interactive, web-based visualization with filtering, zooming, and hover capabilities. It has sensible defaults for a quick first draft, but is also highly configurable to enable fine-tuning of the visualization.\n\n\n\n\n\n\nFigure 1:Timeline of Recent LLM Releases\n\nAs you can see above, I set each releasing organization to have its own swinlane. Each model is represented by a bar and colored by its model series. Cross hatches indicate that commericial use is not allowed under the license. Additional metadata including exact release date and model sizes become visible when hovering over the individual bars.\nI like how the timeline allows me to see the cadence of releases from each organization and how the release rate is generally slowing down across organizations (see Microsoft’s Phi and Alibaba’s Qwen series).\n\n\nNext steps\nAfter investing the time to build the initial dataset and visualization, it should be easy to keep up to date, which I’ll likely do every several months.\nI think there are also some interesting extensions to this work:\n\nPrompt an LLM to generate the dataset. Knowledge cut-offs mean LLMs are blind to the recent past, so I’d have to configure the LLM to use web browsing tools (say with Ollama or LangChain) to query for the very latest announcements. If it’s possible to automate the data curation process, then generating similar timelines for other families of models (such speech-to-text, image generation, etc) would be feasible.\nI’m also interested in generating other types visualizations that I haven’t yet come across, for example:\n\na scatter plot visualization of model performance versus quantized model size to aid in model selection. Is full size 16-bit Llama3 8B better or worse than 4-bit Llama3 70B?\n\ntree diagrams to illustrate the lineage of models through pre-training, fine-tuning, HLRF, quantization, and any other steps.\n\n\n\n\nConclusion\nPlease let me know if you have any feedback! I’m interested to know if others find this useful, if I’m missing any major models or if you have any other ideas for extensions!"
-  },
-  {
-    "objectID": "posts/stuttgart-recommendations/index.html",
-    "href": "posts/stuttgart-recommendations/index.html",
-    "title": "Stuttgart Recommendations",
-    "section": "",
-    "text": "Here are my favourite things to do and eat in Stuttgart!"
-  },
-  {
-    "objectID": "posts/stuttgart-recommendations/index.html#biergartens-with-food",
-    "href": "posts/stuttgart-recommendations/index.html#biergartens-with-food",
-    "title": "Stuttgart Recommendations",
-    "section": "Biergartens with Food",
-    "text": "Biergartens with Food\n\nTea House in Weissenburg Park – despite the name, this is a beer garden. Near Bopser stop on the U6 line. Amazing views over the city and excellent place to watch the sunset from the Aussicht (overlook) and they’ll you take your beers up there.\nTschechen & Söhne – at top of Karlshohe with great views over the city. Beware, many stairs to get up here so you’ll earn your first beer 😝\nBiergarten im Schlossgarten is centrally located and just outside the central train station."
-  },
-  {
-    "objectID": "posts/stuttgart-recommendations/index.html#traditional-swabian-restaurants",
-    "href": "posts/stuttgart-recommendations/index.html#traditional-swabian-restaurants",
-    "title": "Stuttgart Recommendations",
-    "section": "Traditional Swabian Restaurants",
-    "text": "Traditional Swabian Restaurants\nThese skew smaller and more local\n\nStuttgarter+Staffele - Feuersee in Stuttgart. This one wins my prize for best interior. Feels like stepping from a city street straight into a hut in the Alps.\nWeinstube Kachelofen – Rathaus neighborhood. Very old school Schwabian. Service can be slow if it’s busy but food is amazing.\nSchellenturm – Bohnenviertel neighborhood. This one’s in a stone tower so great ambiance\nRestaurant Tauberquelle – Rathaus neighborhood. More of a pub/stube feel with a garten if the weather is nice.\nWeinstube Zur Kiste - Charlottenplatz. Real old school.\nI’ve also been meaning to go to Onkel Otto which is meant to have great schnitzels but you def will need a reservation."
-  },
-  {
-    "objectID": "posts/stuttgart-recommendations/index.html#modern-swabian-restaurants",
-    "href": "posts/stuttgart-recommendations/index.html#modern-swabian-restaurants",
-    "title": "Stuttgart Recommendations",
-    "section": "Modern Swabian Restaurants",
-    "text": "Modern Swabian Restaurants\nThese skew much larger and more touristy (although not unbearably so)\n\nCarls Brauhaus – right off Schlossplatz, associated with the Dinkelacker brewery. Expansive menu, good/fast service, and English friendly\nAlte Kanzlei – right off Schlossplatz. Modern interior\nBrauhaus Schönbuch – about a block off Schlossplatz, associated with Schonbuch brewery."
-  },
-  {
-    "objectID": "posts/should-i-automate-the-thing/index.html",
-    "href": "posts/should-i-automate-the-thing/index.html",
-    "title": "Should I Automate the Thing?",
-    "section": "",
-    "text": "Intro\nAs a data scientist within a large organization, I’m often inundated with requests to automate things. With limited resources and a seemingly infinite backlog, the initial challenge is prioritizing proposed automation projects for execution.\nWithout a robust framework, prioritiation can be driven by expediency, developer preference, perceived urgency versus the essential criteria: are we saving more time than we’re spending?\nConsider the following automation project proposal. How might we prioritize these for development?\n\nA junior analyst generates a daily report every morning. To complete this task, they first submit a standardized query into three search engines, and then compile search results into a report whose structure never changes. The report is sent out via email to a broad distribution group and posted to a SharePoint site.\n\nA senior engineer manually merges and cleans data from spreadsheets provided by his junior engineers once per week. The merged spreadsheet is loaded into a business system of record.\nThe CEO writes a quarterly a letter to shareholders that evaluates the positioning of the business in the overall market and outlines her strategy for the coming year.\n\n\n\nA Prioritization Framework\n\nIs the task automatable? This first pass sanity check to evaluate the projects for automatability. Is the task performed according to a standard, well documented, deterministic process? Or does the completion of the task require signficant subjective inputs, fuzzy matching, or dedicated subject matter experts?\n\nEliminate Project 3.\n\nWhat is the duration and recurrences of the manual task? The current owners of the manual tasks may be able to give you good estimates of these parameters. Better to perform an observational study.\n\nLet’s say we’ve queried the junior analyst and senior engineer and their tasks take one hour daily and three hours weekly, respectively.\n\nHow long will it take to automate?\nHow long is this task likely to persist? Processes and tasking often change within an organization. Is it a core function of the business? Is it a pet project of the current administration? Is it the result of a flawed process? Will it be impacted by IT upgrades? The longevity of a specific task impacts the realized value of automating it.\n\nLet’s say we query our analyst and engineer. The analyst responds that this report has been sent out every day for the last 5 years and is very likely to continue into the future. Our engineer has also been performing the task for several years, but anticipates when the organization next upgrades its engineering application (scheduled in two years), the task will be handled by the system.\n\nHow much is everybody’s time worth? Obviously this is a sensitive question and co-workers are unlikely to advertise this information. For large efforts, this data could be requested from senior leadership or HR. However, educated guesses can suffice.\n\nLet’s say the junior analyst gets paid half as much as the data scientist and the data scientist is paid half as much as the senior engineer. Moreover, the data scientist is a consultant, so their cost to the organization is twice their salary. Therefore the data scientist’s hour costs 4x a junior analyst’s hour and 1x the senior engineer’s hour.\n\nPutting it All Together: Net Present Value (NPV) and Return on Investment (ROI)?\n\nIn finanace, the Net Present Value (NPV) takes the time value of money to reflect that cash flows deep in the future are likely less valuable than cash flows today\nThe Net Present Value formula is:\nPV = Rt / (1 + i)^t\nWe can apply a similar logic to our tasks to account\nROI = (MANUAL_TIME * MANUAL_FREQUENCY * DURATION * DS_MULTIPLIER) - (DS_TIME * DS_MULTIPLIER) / (DS_TIME * DS_MULTIPLIER) \nROI = (3 hour * 1 / week * 52 weeks / year * 1) - (200 hours * 1)\nPay back time\n\n\nFurther Thoughts\nZero-to-One tasks (create a capability not previously possible)\nLLMs / AI (reduce time required by DS to implement)\nOpportunity Cost - if we automate the task, can the person complete a task of equal or greater value?"
   }
 ]
