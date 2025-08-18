@@ -5,10 +5,10 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Josh Baker&#39;s Blog</title>
+<title>Baker&#39;s Blog</title>
 <link>http://joshfbaker.github.io/</link>
 <atom:link href="http://joshfbaker.github.io/index.xml" rel="self" type="application/rss+xml"/>
-<description>Josh Baker&#39;s Blog</description>
+<description>Baker&#39;s Blog</description>
 <generator>quarto-1.5.56</generator>
 <lastBuildDate>Sat, 10 Aug 2024 04:00:00 GMT</lastBuildDate>
 <item>
@@ -151,6 +151,26 @@ Porsche Museum
   <guid>http://joshfbaker.github.io/posts/stuttgart-recommendations/</guid>
   <pubDate>Thu, 20 Jun 2024 04:00:00 GMT</pubDate>
   <media:content url="http://joshfbaker.github.io/posts/stuttgart-recommendations/rathaus.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Josh Baker</dc:creator>
+  <link>http://joshfbaker.github.io/posts/should-i-automate-the-thing/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>data science</category>
+  <guid>http://joshfbaker.github.io/posts/should-i-automate-the-thing/</guid>
+  <pubDate>Sun, 14 Apr 2024 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Josh Baker</dc:creator>
+  <link>http://joshfbaker.github.io/posts/two-js-test/ModArcs.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>javascript</category>
+  <category>digital art</category>
+  <guid>http://joshfbaker.github.io/posts/two-js-test/ModArcs.html</guid>
+  <pubDate>Sat, 05 Aug 2023 04:00:00 GMT</pubDate>
+  <media:content url="http://joshfbaker.github.io/posts/two-js-test/quarto.png" medium="image" type="image/png"/>
 </item>
 <item>
   <title>My Personal Finance Setup in Europe</title>
