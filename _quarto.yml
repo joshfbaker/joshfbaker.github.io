@@ -14,6 +14,8 @@ website:
         href: https://github.com/joshfbaker
       - icon: rss
         href: index.xml
+    twitter-card: true
+    open-graph: true
 format:
   html:
     theme: flatly
