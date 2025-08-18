@@ -3,8 +3,8 @@ project:
   output-dir: docs
 website:
   site-url: http://joshfbaker.github.io/
-  title: "Baker's Blog"
-  description: "Baker's Blog"
+  title: "🍞 Baker's Blog"
+  description: "🍞 Baker's Blog"
   favicon: favicon.ico
   twitter-card: true
   open-graph: true
