@@ -5,10 +5,10 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Baker&#39;s Blog</title>
+<title>🍞 Baker&#39;s Blog</title>
 <link>http://joshfbaker.github.io/</link>
 <atom:link href="http://joshfbaker.github.io/index.xml" rel="self" type="application/rss+xml"/>
-<description>Baker&#39;s Blog</description>
+<description>🍞 Baker&#39;s Blog</description>
 <generator>quarto-1.5.56</generator>
 <lastBuildDate>Sat, 10 Aug 2024 04:00:00 GMT</lastBuildDate>
 <item>
